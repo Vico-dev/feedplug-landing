@@ -1,4 +1,5 @@
 import React from "react";
+import { Icon } from '@iconify/react';
 
 export default function App() {
   return (
@@ -27,12 +28,13 @@ export default function App() {
             FeedPlug centralise, enrichit et optimise vos flux produits pour Google, Meta, Amazon, et plus encore. Sans friction.
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-6 mt-6 opacity-80">
-            <img src="/logos/google-merchant.svg" alt="Google Merchant" className="h-8" />
-            <img src="/logos/meta.svg" alt="Meta" className="h-8" />
-            <img src="/logos/amazon.svg" alt="Amazon" className="h-8" />
-            <img src="/logos/tiktok.svg" alt="TikTok" className="h-8" />
-            <img src="/logos/cdiscount.svg" alt="Cdiscount" className="h-8" />
+          {/* Logos en pictos vectoriels */}
+          <div className="flex flex-wrap items-center justify-center gap-8 mt-6 text-4xl text-gray-600">
+            <Icon icon="simple-icons:google" title="Google Merchant" />
+            <Icon icon="simple-icons:meta" title="Meta" />
+            <Icon icon="simple-icons:amazon" title="Amazon" />
+            <Icon icon="simple-icons:tiktok" title="TikTok" />
+            <Icon icon="simple-icons:cdiscount" title="Cdiscount" />
           </div>
 
           <a href="#form" className="inline-block mt-8 bg-violet-600 hover:bg-violet-700 text-white px-6 py-3 text-lg rounded-2xl shadow-xl transition-all duration-300">
@@ -61,7 +63,7 @@ export default function App() {
               </button>
             </div>
             <div className="text-center text-sm text-gray-500 pt-2">
-              💡 À partir de <strong>99€ / mois HT</strong>. Offre spéciale bêta sans engagement.
+              💡 À partir de <strong>99€ / mois HT à vie</strong>. Offre spéciale bêta sans engagement.
             </div>
           </div>
         </section>
