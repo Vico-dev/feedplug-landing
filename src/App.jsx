@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
-import logo from "./assets/feedplug-logo.png";
-
-
 
 export default function App() {
   const [form, setForm] = useState({});
@@ -36,7 +33,7 @@ export default function App() {
       <div className="relative z-10">
         {/* Header */}
         <header className="w-full max-w-7xl mx-auto flex items-center justify-between py-4 px-2 md:px-0">
-          <img src={logo} alt="FeedPlug logo" className="h-10" />
+          <img src="/assets/feedplug-logo.png" alt="FeedPlug logo" className="h-10" />
         </header>
 
         {/* Hero */}
