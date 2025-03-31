@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
-import logo from "./assets/feedplug-logo.png";
+import logo from "assets/feedplug-logo.png";
+
 
 
 export default function App() {
